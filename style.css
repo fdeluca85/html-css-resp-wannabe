@@ -75,6 +75,9 @@ img {
 
 /* *****soluzione smartphone***** */
 @media screen and (max-width: 419px){
+  body{
+    background-color: #F2F2CD;
+  }
 
   .row {
     width: 90%;
