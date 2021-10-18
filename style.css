@@ -71,3 +71,16 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 478px){
+  h1{
+    width: 50%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 50%;
+  float: none;
+}
+
+}
