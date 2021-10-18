@@ -72,15 +72,32 @@ img {
   clear: both;
 }
 
-@media screen and (max-width: 478px){
-  h1{
-    width: 50%;
-  }
 
+/* *****soluzione smartphone***** */
+@media screen and (max-width: 479px){
+
+  .row {
+    width: 90%;
+    text-align: center;
+  }
+  
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 50%;
+  width: 100%;
   float: none;
-}
+  }
 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 80px;
+  }
 }
